@@ -53,4 +53,4 @@ jobs:
           app-name: 'Testedofront'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_58CF417CE7AD4BDDAF7A217D402E9628 }}
-          package: .
+          package: ’build’
